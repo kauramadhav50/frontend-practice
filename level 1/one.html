@@ -101,11 +101,13 @@
         <div class="md:absolute md:top-0 md:right-0 md:h-full md:w-[65%] md:bg-[#eeff84] md:rounded-l-[1%]"></div>
 
 
-        <div class="relative p-6 md:pt-12 mx-none flex md:max-w-none md:px-0 md:gap-6 wrap justify-center items-center md:gap-12">
+        <div
+            class="relative p-6 md:pt-12 mx-none flex md:max-w-none md:px-0 md:gap-6 wrap justify-center items-center md:gap-12">
             <img src="images/Abletonsiteimage1.png" alt="" class="w-full md:w-auto md:mr-4 lg:h-160 h-100 md:120">
             <div class="flex flex-col justify-center items-center">
                 <div class="h-20"></div>
-                <img src="images/Abletonsiteimage2.png" alt="" class="hidden md:block md:w-full md:w-auto md:ml-4 md:h-60 lg:h-80">
+                <img src="images/Abletonsiteimage2.png" alt=""
+                    class="hidden md:block md:w-full md:w-auto md:ml-4 md:h-60 lg:h-80">
                 <div class="h-20"></div>
             </div>
         </div>
@@ -128,11 +130,11 @@
         </div>
 
         <!-- here's a video about us: -->
-        <div>
-            <video src=""></video>
+        <div class="flex justify-center mt-8">
+           <img src="images/abeltonVideo.png" alt="video screenshot" class="sm:h-100 w-auto h-60 mx-2 sm:mx-0">
         </div>
 
-        <div class="mt-12 space-y-4 flex flex-col max-w-2xl mx-auto px-6 justify-center mx-auto p-6 md:px-0">
+        <div class="space-y-4 flex flex-col max-w-2xl mx-auto px-6 justify-center mx-auto p-6 md:px-0">
 
             <h3 class="font-extrabold text-[clamp(2vm,3rem,6rem)] md:text-[1.4rem]">
                 We are more than 350 people from over 30 different countries divided between our headquarters in Berlin
@@ -172,8 +174,8 @@
 
         </div>
 
-        <div>
-            <video src=""></video>
+        <div class="flex justify-center mt-8">
+            <img src="images/image.png" alt="video screenshot" class="sm:h-120 w-auto h-80 mx-2 sm:mx-0 md:h-120 lg:h-160 overflow-hidden">
         </div>
 
         <div class="mt-12 space-y-4 flex flex-col max-w-2xl mx-auto px-6 justify-center mx-auto p-6 md:px-0">
@@ -219,118 +221,145 @@
 
         <!-- card -->
 
-        <div>
-            <img src="" alt="">
-            <p>We're really proud of the work we've done so far. But there's so much more to come. If you'd like to be a
-                part of it, please join us.</p>
-            <a href="#">
-                See latest jobs
-                <span>&gt;</span>
-            </a>
+        <div class="sm:max-w-2xl md:max-w-4xl mx-auto max-w-lg sm:mx-auto flex flex-col sm:flex-row justify-center px-2 overflow-hidden">
+            <img src="images/abeltoncard.png" alt="ss" class="md:h-120 md:w-120 text-center md:mx-0 mx-auto h-130 w-130 sm:h-100 sm:w-100">
+            <div class="flex flex-col gap-4 sm:justify-center bg-[#B1C6FF] sm:px-8 sm:py-6 ">
+
+                <p class="text-justify text-center text-lg font-bold md:px-8">We're really proud of the work we've done so far. But there's so much more to come. If you'd like to be a
+                    part of it, please join us.</p>
+                <a href="#" class="justify-start md:px-8 md:py-4 text-[#4c20fc] text-lg font-bold">
+                    See latest jobs
+                    <span>&gt;</span>
+                </a>
+            </div>
         </div>
 
     </section>
 
 
+    
     <!-- footer -->
-    <footer class="p-6 md:p-12 mt-12 space-y-8 md:space-y-12 max-w-[1440px] mx-auto">
-        <h2 class="text-5xl font-bold">Ableton</h2>
-        <div class ="flex justify-between wrap">
+    <footer class="max-w-[1440px] mx-auto mt-12 p-6 md:p-12 space-y-10 text-sm">
 
-            <div>
-                <ul>
-                    <li><a href="#">Register Live or Push <span>&gt;</span></a></li>
-                    <li><a href="#">About Ableton <span>&gt;</span></a></li>
-                    <li><a href="#">Jobs <span>&gt;</span></a></li>
-                    <li class="flex gap-2">
-                        <img src="images/facebooklogo.png" alt="facebook" class="w-7">
-                        <img src="images/twitterlogo.png" alt="twitter" class="w-7">
-                        <img src="images/youtubelogo.png" alt="youtube" class="w-7">
-                        <img src="images/instalogo.jpg" alt="instagram" class="w-7">
-                    </li>
+        <!-- Title -->
+        <h2 class="text-3xl md:text-5xl font-bold text-center md:text-left">
+            Ableton
+        </h2>
+
+        <!-- Main Footer Content -->
+        <div class="flex flex-col gap-10 md:flex-row md:justify-between">
+
+            <!-- Column 1 -->
+            <div class="space-y-6">
+                <ul class="space-y-2">
+                    <li><a href="#" class="hover:underline">Register Live or Push &gt;</a></li>
+                    <li><a href="#" class="hover:underline">About Ableton &gt;</a></li>
+                    <li><a href="#" class="hover:underline">Jobs &gt;</a></li>
                 </ul>
 
+                <!-- Social Icons -->
+                <div class="flex gap-3">
+                    <a href="#" aria-label="Facebook">
+                        <img src="images/facebooklogo.png" class="w-7" alt="">
+                    </a>
+                    <a href="#" aria-label="Twitter">
+                        <img src="images/twitterlogo.png" class="w-7" alt="">
+                    </a>
+                    <a href="#" aria-label="YouTube">
+                        <img src="images/youtubelogo.png" class="w-7" alt="">
+                    </a>
+                    <a href="#" aria-label="Instagram">
+                        <img src="images/instalogo.jpg" class="w-7" alt="">
+                    </a>
+                </div>
 
-            </div>
-
-            <div>
-                <ul>
-                    <li class="font-semibold">Education</li>
-                    <li>Offers for Students and teachers <span>&gt;</span></li>
-                    <li>Offers for institutions <span>&gt;</span></li>
-                    <li>Push 1 trade-in initiative <span>&gt;</span></li>
-                </ul>
-            </div>
-
-            <div class="max-w-sm">
-                <p class="font-semibold">Sign up to our newsletter</p>
-                <p class="wrap">Enter your email address to stay up to date with the latest offers, tutorials, downloads and more</p>
-                <form action="#" class="flex mt-4">
-                    <input type="email" name="email" id="email" placeholder="Email Address" class="bg-gray-200 h-8 w-auto placeholder-gray-500 p-2">
-                    <button type="submit" class="bg-blue-600 text-white h-8 w-20 text-center">Sign up</button>
-                </form>
-            </div>
-
-        </div>
-
-
-        <div class="flex justify-between wrap">
-            <div>
-                <ul>
-                    <li class="font-semibold">Comunity</li>
+                <!-- Community -->
+                <ul class="space-y-2 hidden md:block">
+                    <li class="font-semibold">Community</li>
                     <li>Find Ableton User Groups</li>
                     <li>Find Certified Training</li>
                     <li>Become a Certified Trainer</li>
-                    </li>
                 </ul>
-
             </div>
 
-            <div>
-                <ul class="md:mr-36">
-                    <li class="md:font-semibold">Distributors</li>
+            <!-- Column 2 -->
+            <div class="hidden md:flex md:flex-col md:gap-8">
+                <ul class="space-y-2">
+                    <li class="font-semibold">Education</li>
+                    <li>Offers for Students and Teachers &gt;</li>
+                    <li>Offers for Institutions &gt;</li>
+                    <li>Push 1 Trade-In Initiative &gt;</li>
+                </ul>
+
+                <ul class="space-y-2">
+                    <li class="font-semibold">Distributors</li>
                     <li>Find Distributors</li>
-                    <li>Try Push-in-store</li>
+                    <li>Try Push In-Store</li>
                 </ul>
             </div>
 
-            <div class="md:flex md:flex-col md:mr-46">
-                <p class="md:font-semibold">Language and Location</p>
-                <div class="md:flex md:gap-4">
-                    <select name="language" id="language">
-                        <option value="language">English</option>
-                    </select>
+            <!-- Column 3 -->
+            <div class="space-y-6 max-w-sm">
 
-                    <select name="location" id="location">
-                        <option value="location">United States</option>
-                    </select>
+                <!-- Newsletter -->
+                <div>
+                    <p class="font-semibold mb-1">Sign up to our newsletter</p>
+                    <p class="text-gray-600">
+                        Enter your email address to stay up to date with the latest offers,
+                        tutorials, downloads and more.
+                    </p>
+
+                    <form class="flex mt-4">
+                        <input type="email" placeholder="Email Address"
+                            class="w-full bg-gray-200 px-3 py-2 outline-none focus:ring-2 focus:ring-blue-600" />
+                        <button type="submit" class="bg-blue-600 text-white px-6 py-2">
+                            Sign up
+                        </button>
+                    </form>
                 </div>
+
+                <!-- Language & Location -->
+                <div class="hidden md:block">
+                    <p class="font-semibold mb-2">Language and Location</p>
+                    <div class="flex gap-4">
+                        <select class="border px-2 py-1">
+                            <option>English</option>
+                        </select>
+                        <select class="border px-2 py-1">
+                            <option>United States</option>
+                        </select>
+                    </div>
+                </div>
+
             </div>
         </div>
 
-        <div class="md:flex md:justify-between md:wrap">
+        <!-- Bottom Links -->
+        <div class="flex flex-col gap-4 md:flex-row md:justify-between md:items-center text-xs font-semibold">
 
-            <div>
-                <ul class="md:flex gap-4">
-                    <li>Archive</li>
-                    <li>Contact Us</li>
-                    <li>Press Resources</li>
-                    <li>Legal info</li>
-                    <li>Privacy Policy</li>
-                    <li>Cookies Settings</li>
-                    <li>Imprint</li>
-                </ul>
-            </div>
+            <ul class="flex flex-wrap justify-center md:justify-start gap-4">
+                <li><a href="#" class="hover:underline">Archive</a></li>
+                <li><a href="#" class="hover:underline">Contact Us</a></li>
+                <li><a href="#" class="hover:underline">Press Resources</a></li>
+                <li><a href="#" class="hover:underline">Legal Info</a></li>
+                <li><a href="#" class="hover:underline">Privacy Policy</a></li>
+                <li><a href="#" class="hover:underline">Cookies Settings</a></li>
+                <li><a href="#" class="hover:underline">Imprint</a></li>
+            </ul>
 
-            <div>
+            <div class="hidden md:flex items-center gap-2">
                 <p>Made in Berlin</p>
-                <img src="" alt=""> <!---logo-->
+                <img src="images/Ableton_logo.png" class="h-6 w-8" alt="Ableton Logo" />
             </div>
         </div>
 
+        <!-- Copyright -->
+        <div class="text-center text-gray-500 text-xs">
+            © 2023 Ableton AG
+        </div>
 
     </footer>
-
+    
 </body>
 
 </html>
