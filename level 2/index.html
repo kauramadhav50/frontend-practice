@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Abstract</title>
+</head>
+
+<body class="font-sans bg-gray-800">
+
+    <!-- this is the Navbar -->
+    <nav class="bg-black text-white flex justify-between text-xl px-[8%] py-4 items-center">
+        <!-- this is left portion of the navbar -->
+        <div class="flex gap-2 items-center">
+
+            <!-- Here we add logo -->
+
+            <img src="images/logo.png" alt="">
+            Abstract
+
+            <p>|</p>
+            <p>Help Center</p>
+        </div>
+
+        <!-- this is right portion of the navbar -->
+        <div class="hidden sm:block sm:flex sm:gap-4">
+            <a href="" type="button" class="sm:border sm:border-white sm:rounded-md px-6 py-2 bg-gray-800 ">Submit a
+                request</a>
+            <a href="" type="button" class="sm:bg-indigo-500 sm:rounded-md sm:px-6 sm:py-2">Sign in</a>
+        </div>
+    </nav>
+
+
+    <!-- Hero section of the website -->
+
+    <section class="flex justify-center bg-[#DADBF1] p-20 flex-col items-center gap-5 b">
+        <h1 class="text-black md:text-7xl text-4xl font-semibold">How can we help?</h1>
+        <div
+            class="bg-white md:w-[700px] w-[400px] h-15 p-2 flex gap-2 shadow-xl border border-b-black border-t-gray-400 border-l-gray-400 border-r-gray-400 hover:border-[#4F46E5] hover:text-[#4F46E5] ">
+            <input type="search" class="w-full focus:outline-none placeholder:text-xl pl-2" placeholder="Search">
+            <button class=""><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                    fill="#000000">
+                    <path d="m560-240-56-58 142-142H160v-80h486L504-662l56-58 240 240-240 240Z" />
+                </svg></button>
+        </div>
+    </section>
+
+    <!-- Services we provide -->
+    <div class="flex flex-col justify-center items-center bg-white">
+
+
+        <section class="grid md:grid-cols-2 gap-12 max-w-5xl mx-auto my-20 px-4">
+
+            <!-- Service 1 -->
+            <div class="flex gap-8">
+
+                <img src="images/Branches.png" alt="" class="w-20 h-20 object-contain">
+
+                <div class="flex flex-col gap-2">
+                    <h3 class="text-lg font-bold">Branches</h3>
+                    <p class="text-gray-600">Abstract Brnaches lets you manage, version, and document your designs in
+                        one
+                        place</p>
+                    <a href="" class="hover:underline text-[#4C5FD5]">Learn More <span>&#8594;</span> </a>
+                </div>
+            </div>
+
+
+
+
+            <!-- Service 2 -->
+            <div class="flex gap-6">
+
+                <img src="images/account.png" alt="" class="w-20 h-20 object-contain">
+
+                <div class="flex flex-col gap-2">
+                    <h3 class="text-lg font-bold">Manage Your Account</h3>
+                    <p class="text-gray-600">Configure your account settings, such as your email, profile details, and
+                        password.</p>
+                    <a href="" class="hover:underline text-[#4C5FD5]">Learn More <span>&#8594;</span> </a>
+                </div>
+            </div>
+
+            <!-- Service 3 -->
+            <div class="flex gap-6">
+
+                <img src="images/projects.png" alt="" class="w-20 h-20 object-contain">
+
+                <div class="flex flex-col gap-2">
+                    <h3 class="text-lg font-bold">Manage organizations, teams, and projects</h3>
+                    <p class="text-gray-600">Use Abstract organizations, teams, and projects to organise your people and
+                        your work.</p>
+                    <a href="" class="hover:underline text-[#4C5FD5]">Learn More <span>&#8594;</span> </a>
+                </div>
+            </div>
+
+            <!-- Service 4 -->
+            <div class="flex gap-6">
+
+                <img src="images/billing.png" alt="" class="w-20 h-20 object-contain">
+
+                <div class="flex flex-col gap-2">
+                    <h3 class="text-lg font-bold">Manage billing</h3>
+                    <p class="text-gray-600">Change subscriptions and payment details.</p>
+                    <a href="" class="hover:underline text-[#4C5FD5]">Learn More <span>&#8594;</span> </a>
+                </div>
+            </div>
+
+
+            <!-- Service 5 -->
+            <div class="flex gap-6">
+
+                <img src="images/Authentication.png" alt="" class="w-20 h-20 object-contain">
+
+                <div class="flex flex-col gap-2">
+                    <h3 class="text-lg font-bold">Authenticate to Abstract</h3>
+                    <p class="text-gray-600">Set up and configure SSO, SCIM, and Just-in-Time provisioning</p>
+                    <a href="" class="hover:underline text-[#4C5FD5]">Learn More <span>&#8594;</span> </a>
+                </div>
+            </div>
+
+
+            <!-- Service 6 -->
+            <div class="flex gap-6">
+
+                <img src="images/support.png" alt="" class="w-20 h-20 object-contain">
+
+                <div class="flex flex-col gap-2">
+                    <h3 class="text-lg font-bold">Abstract support</h3>
+                    <p class="text-gray-600">Get in touch with a human.</p>
+                    <a href="" class="hover:underline text-[#4C5FD5]">Learn More <span>&#8594;</span> </a>
+                </div>
+            </div>
+
+
+        </section>
+    </div>
+
+<footer class="flex flex-col sm:flex-row bg-black text-white gap-2 lg:justify-center ">
+    <div class="grid grid-cols-2 lg:grid-cols-4  px-20 py-10  gap-y-4 md:gap-x-20 max-w-5xl">
+
+        <div>
+            <h3 class="text-xl font-bold">Abstract</h3>
+            <ul class="font-semibold">
+                <li>Branches</li>
+            </ul>
+
+        </div>
+
+        <div>
+            <h3 class="text-xl font-bold">Resources</h3>
+            <ul class="font-semibold">
+                <li>Blog</li>
+                <li>Help Center</li>
+                <li>Release Notes</li>
+                <li>Status</li>
+            </ul>
+
+        </div>
+
+        <div>
+            <h3 class="text-xl font-bold">Community</h3>
+            <ul class="font-semibold">
+                <li>Twitter</li>
+                <li>Linkedin</li>
+                <li>Facebook</li>
+                <li>Dribbble</li>
+                <li>Podcast</li>
+            </ul>
+
+        </div>
+
+        <div class="flex  flex-col gap-4">
+            <div>
+
+                <h3 class="text-xl font-bold">Comapany</h3>
+                <ul class="font-semibold">
+                    <li>About Us</li>
+                    <li>Careers</li>
+                    <li>Legal</li>
+                </ul>
+            </div>
+
+            <div >
+                <h5 class="font-bold">Contact Us</h5>
+                <p class="font-semibold">info@abstract.com</p>
+            </div>
+        </div>
+        
+    </div>
+    <div class="flex flex-col justify-end items-end">
+        <div>
+            <img src="images/logo.png" alt="">
+            <p>@Copyright 2022</p>
+            <p>Abstract Studio Design,Inc.</p>
+            <p>All rights reserved</p>
+        </div>
+    </div>
+</footer>
+
+</body>
+
+</html>
